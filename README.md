@@ -1,6 +1,5 @@
 # RabbitMQ-Demo
 
-A very easy demo of RabbitMQ.
 
 ## Intro
 
@@ -27,7 +26,7 @@ $ rabbitmq-server start
 
 ### Windows
 
-For Windows, download the latest install from: https://www.rabbitmq.com/download.html
+For Windows, download the latest installer from: https://www.rabbitmq.com/download.html
 and follow the usual steps to install it.
 
 ### Linux Container
@@ -46,15 +45,13 @@ $ docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER
 ```
 
 Note: To install docker
-Just execute:
+    Just execute:
 
 ```
-$ sudo curl https://get.docker.com | sh
+    $ sudo curl https://get.docker.com | sh
 ```
 
-
-## Tutorial 1: Basic (1 Sender/1 Reciever)
-
+### Please browse to the sub-directories for example descriptions
 
 ## Authors
 
